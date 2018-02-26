@@ -1,0 +1,63 @@
+body {
+ margin: 0;
+}
+
+/*nav start*/
+.header{
+  width: 100%;
+  height: 64px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: gray;
+}
+
+.logo{
+  display: flex;
+  align-items: flex-start;
+}
+
+#icon{
+  height: 32px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a{
+  padding: 8px;
+}
+
+/*nav end*/
+
+.content{
+  padding-top: 64px;
+}
+
+/*jumbotron start*/
+.jumbotron{
+  padding: 32px 24px 32px 24px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;;
+  background-color: lightgray;
+  /*display: inline-block;*/
+}
+#banner{
+  width: 60%;
+}
+
+.jumbobtn{
+  text-align: center;
+  background-color: darkgray;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+/*jumbotron end*/
