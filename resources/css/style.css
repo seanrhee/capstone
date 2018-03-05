@@ -96,7 +96,7 @@ nav a{
   /*padding: 32px 24px 32px 16px;*/
 }
 
-.infocontainer{
+.sidecontainer{
   display: flex;
   padding: 16px;
   align-items: center;
@@ -107,7 +107,7 @@ nav a{
   height: auto;
 }
 
-.infotext{
+.sidetext{
   width: 65%;
   padding: 16px;
   /*display: inline-flex;*/
@@ -146,3 +146,61 @@ nav a{
   padding: 16px 16px 24px 16px;
 }
 /*courses end*/
+
+/*thesis start*/
+.thesis{
+  /*display: flex;*/
+  width: 100%;
+}
+.thesiscontent{
+  display:flex;
+}
+.thesis h1{
+  padding: 32px 0px 32px 0px;
+  text-align: center;
+}
+
+.thesismain{
+  width: 60%;
+  padding: 0px 24px 24px 24px;
+}
+
+#thesisvid{
+  width: 100%;
+}
+
+.thesismenu{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+/*thesis end*/
+
+/*footer start*/
+.footer{
+  width: 100%;
+  height: 64px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-top: 1px solid lightgray;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a{
+  padding: 8px;
+}
+/*footer end*/
