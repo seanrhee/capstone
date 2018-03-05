@@ -17,6 +17,7 @@ a{
   text-decoration: none;
   font-weight: bold;
   transition: all 0.25s linear;
+  color: #333333
 }
 a:visited{
   text-decoration: none;
