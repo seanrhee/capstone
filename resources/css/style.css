@@ -127,14 +127,22 @@ nav a{
 }
 .coursepanels{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
 }
 .coursecontainer{
   background-color: white;
+  width: 532px;
+  align-items: center;
+  margin: 16px;
+  height: 450px;
 }
+
 .coursecontainer img{
   height: auto;
+}
+.coursetext{
+  padding: 16px 16px 24px 16px;
 }
 /*courses end*/
