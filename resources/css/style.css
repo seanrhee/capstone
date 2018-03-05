@@ -15,10 +15,15 @@ h3, h4{
 
 a{
   text-decoration: none;
+  font-weight: bold;
+  transition: all 0.25s linear;
 }
 a:visited{
   text-decoration: none;
   color: #333333;
+}
+a:hover{
+  color: #999999;
 }
 
 body {
@@ -61,6 +66,7 @@ nav{
 
 nav a{
   padding: 0.5rem;
+  font-weight: normal;
 }
 
 /*nav end*/
@@ -103,13 +109,17 @@ nav a{
   color: white;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  width: 50%;
+  width: 15rem;
+  transition: all 0.25s linear;
 }
 .jumbobtn h3{
   font-family: 'Fjalla One', sans-serif;
 }
 .jumbobtn a:visited{
   color: white;
+}
+.jumbobtn:hover{
+  background-color: #333333;
 }
 
 /*jumbotron end*/
@@ -136,7 +146,16 @@ nav a{
   display: flex;
   padding: 1rem;
   align-items: center;
+  transition: all 0.25s linear;
 }
+
+.sidecontainer:hover{
+  background-color: lightgray;
+}
+/*.sidecontainer a:hover{
+  color: #f2f2f2;
+}*/
+
 
 .infoimg{
   /*width: 35%;*/
@@ -173,10 +192,19 @@ nav a{
   align-items: center;
   margin: 1.5rem;
   height: 450px;
+  transition: all 0.25s linear;
 }
 
 .coursecontainer img{
   height: auto;
+}
+
+.coursecontainer:hover{
+  background-color: lightgray;
+}
+
+.coursecontainer a:hover{
+  color: #666666;
 }
 .coursetext{
   padding: 1rem 1.5rem 1.5rem 1.5rem;
