@@ -101,6 +101,7 @@ nav a{
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  padding-left: 2rem;
 }
 
 .jumbobtn{
@@ -128,11 +129,19 @@ nav a{
 .information{
   width: 100%;
   display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+
 }
 
 .maininfo{
   width: 60%;
   padding: 2rem 1.5rem 2rem 1.5rem;
+}
+
+#infopic{
+  min-width: 60%;
+  max-width: 100%;
 }
 
 .infomenu{
@@ -268,3 +277,57 @@ nav a{
   padding: 0.5rem;
 }
 /*footer end*/
+
+@media only screen and (max-width: 480px),(orientation: portrait){
+  /*nav start*/
+  .navtext{
+    display: none;
+  }
+  /*nav end*/
+
+  /*jumbotron start*/
+  .jumbotron{
+    padding: 2rem 1rem 2rem 1rem;
+    width: 100%;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  .logoimg{
+    width: 100%;
+  }
+
+  .jumboinfo{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+
+  /*jumbotron end*/
+
+  /*information start*/
+  .information{
+    flex-direction: column;
+  }
+
+  .maininfo{
+    display: none;
+  }
+
+  .infomenu{
+    width:100%;
+    /*padding: 32px 24px 32px 16px;*/
+  }
+
+  .infoimg{
+    width: 50%;
+  }
+
+  /*.sidetext{
+    width: 65%;
+    padding: 1rem;*/
+    /*display: inline-flex;*/
+    /*align-items: center;*/
+  }
+  /*information end*/
+}
